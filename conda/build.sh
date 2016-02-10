@@ -8,6 +8,7 @@ if [ `uname` == Darwin ]; then
 fi
 
 bash configure \
+    --without-libtool \
     --with-python \
     --with-hdf4=$PREFIX \
     --with-hdf5=$PREFIX \
