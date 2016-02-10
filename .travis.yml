@@ -1,0 +1,34 @@
+sudo: false
+
+language: cpp
+
+os:
+  - linux
+  - osx
+
+env:
+  global:
+    - BINSTAR_USER: jlaura
+  matrix: 
+    - PYTHON_VERSION: 3.5
+
+compiler:
+  - clang
+
+install:
+- if [["$TRAVIS_OS_NAME" == "osx"]]; then
+    curl -o condaci.py https://raw.githubusercontent.com/menpo/condaci/v0.4.8/condaci.py;
+  else
+    wget https://raw.githubusercontent.com/menpo/condaci/v0.4.8/condaci.py -O condaci.py;
+  fi
+- python condaci.py setup
+
+script:
+  - ~/miniconda/bin/python condaci.py build ./conda
+
+notifications:
+    email:
+        recipients:
+            - jlaura@usgs.gov
+        on_success: change
+        on_failure: always
