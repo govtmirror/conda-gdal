@@ -9,7 +9,7 @@ fi
 
 bash configure \
     --without-libtool \
-    --with-python=$HOME/miniconda/bin/python \
+    --with-python=$PREFIX/bin/python \
     --with-hdf4=$PREFIX \
     --with-hdf5=$PREFIX \
     --with-xerces=$PREFIX \
