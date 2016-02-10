@@ -7,10 +7,8 @@ os:
   - osx
 
 env:
-  global:
-    - BINSTAR_USER: jlaura
-  matrix: 
-    - PYTHON_VERSION: 3.5
+  - BINSTAR_USER: jlaura
+  - PYTHON_VERSION: "3.5"
 
 compiler:
   - clang
