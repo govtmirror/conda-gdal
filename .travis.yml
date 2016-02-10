@@ -8,7 +8,7 @@ os:
 
 env:
   - BINSTAR_USER: jlaura
-  - PYTHON_VERSION: "3.5"
+  - PYTHON_VERSION: 3.5
 
 compiler:
   - clang
