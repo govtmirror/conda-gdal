@@ -9,14 +9,13 @@ fi
 
 bash configure \
     --without-libtool \
-    --with-python \
+    --with-python=$PREFIX \
     --with-hdf4=$PREFIX \
     --with-hdf5=$PREFIX \
     --with-xerces=$PREFIX \
     --with-netcdf=$PREFIX \
     --with-geos=$PREFIX/bin/geos-config \
     --with-kea=$PREFIX/bin/kea-config \
-    --with-spatialite \
     --prefix=$PREFIX
 make
 make install
