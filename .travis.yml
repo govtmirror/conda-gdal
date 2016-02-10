@@ -41,7 +41,6 @@ install:
 
 # Prep to build for upload to binstar
 - conda install anaconda-client anaconda-build
-- conda config --add channels menpo
 
 # Straight from the menpo team
 - if [["$TRAVIS_OS_NAME" == "osx"]]; then

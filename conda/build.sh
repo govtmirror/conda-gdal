@@ -9,7 +9,7 @@ fi
 
 bash configure \
     --without-libtool \
-    --with-python=$PREFIX/bin/python \
+    --with-python \
     --with-hdf4=$PREFIX \
     --with-hdf5=$PREFIX \
     --with-xerces=$PREFIX \
