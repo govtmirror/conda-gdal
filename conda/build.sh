@@ -1,10 +1,7 @@
 #!/bin/bash
 
 if [ $(uname) == Darwin ]; then
-    PGFLAG=""
     export LDFLAGS="-headerpad_max_install_names"
-else
-    PGFLAG="--with-pg=$PREFIX/bin/pg_config"
 fi
 
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
@@ -18,8 +15,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
             --with-openjpeg=$PREFIX \
             --with-python \
             --disable-rpath \
-            --without-pam \
-            $PGFLAG
+            --without-pam 
 
 make
 make install
