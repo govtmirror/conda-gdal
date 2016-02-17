@@ -15,7 +15,9 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
             --with-openjpeg=$PREFIX \
             --with-libjson-c=$PREFIX\
             --with-python \
-            --without-pam 
+            --without-pam \ 
+            --without-freexl
+            #--with-rpath
 
 make
 make install
