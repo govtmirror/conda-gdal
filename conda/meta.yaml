@@ -19,6 +19,7 @@ requirements:
         - geos
         - proj4
         - hdf5
+        - json-c
         - openjpeg  # [not win]
         - hdf4
         - curl  # [not win]
@@ -31,6 +32,7 @@ requirements:
         - geos
         - proj4
         - hdf5
+        - json-c
         - openjpeg  # [not win]
         - hdf4
         - curl  # [not win]
