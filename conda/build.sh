@@ -13,6 +13,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
             --with-xerces=$PREFIX \
             --with-netcdf=$PREFIX \
             --with-openjpeg=$PREFIX \
+            --with-libjson-c=$PREFIX\
             --with-python \
             --disable-rpath \
             --without-pam 
