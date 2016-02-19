@@ -17,7 +17,6 @@ requirements:
     - postgresql [linux]
     - hdf5 1.8.16
     - hdf4
-    - json-c
     - openjpeg
     - curl [not win]
     - armadillo [not win]
@@ -31,7 +30,6 @@ requirements:
     - postgresql [linux]
     - hdf5 1.8.16
     - hdf4
-    - json-c
     - openjpeg
     - curl [not win]
     - armadillo [not win]
