@@ -5,7 +5,7 @@ package:
 source:
     fn: gdal-2.0.2.tar.gz
     url: http://download.osgeo.org/gdal/2.0.2/gdal-2.0.2.tar.gz
-    md5: 91e245fcc323ff4568aa819e82b4784b
+    md5: 573865f3f59ba7b4f8f4cddf223b52a5
 
 requirements:
   build:
