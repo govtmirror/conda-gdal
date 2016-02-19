@@ -15,7 +15,7 @@ requirements:
     - geos 3.4.2
     - proj4 4.9.1
     - postgresql [linux]
-    - hdf5 1.8.15.1
+    - hdf5 1.8.16
     - openjpeg
     - hdf4
     - curl [not win]
@@ -28,7 +28,7 @@ requirements:
     - geos 3.4.2
     - proj4 4.9.1
     - postgresql [linux]
-    - hdf5 1.8.15.1
+    - hdf5 1.8.16
     - openjpeg
     - hdf4
     - curl [not win]
