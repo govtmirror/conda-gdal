@@ -12,7 +12,7 @@ requirements:
     - python
     - numpy
     - xerces-c
-    - geos 3.4.2
+    - geos
     - proj4 4.9.1
     - postgresql [linux]
     - hdf5 1.8.16
@@ -25,7 +25,7 @@ requirements:
     - python
     - numpy
     - xerces-c
-    - geos 3.4.2
+    - geos
     - proj4 4.9.1
     - postgresql [linux]
     - hdf5 1.8.16
