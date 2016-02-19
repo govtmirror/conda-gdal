@@ -17,7 +17,6 @@ requirements:
     - postgresql [linux]
     - hdf5 1.8.16
     - openjpeg
-    - json-c
     - curl [not win]
     - armadillo [not win]
     - libnetcdf 4.3.3.1 [not osx]
@@ -30,7 +29,6 @@ requirements:
     - postgresql [linux]
     - hdf5 1.8.16
     - openjpeg
-    - json-c
     - curl [not win]
     - armadillo [not win]
     - libnetcdf 4.3.3.1 [not osx]
