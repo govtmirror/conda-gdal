@@ -19,7 +19,6 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-netcdf=$PREFIX \
 --with-openjpeg=$PREFIX \
 --with-gif=internal \
---with-libtiff=internal \
 --with-geotiff=internal \
 --with-png=internal \
 --with-libz=internal \

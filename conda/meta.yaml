@@ -18,6 +18,7 @@ requirements:
     - hdf5 1.8.16
     - hdf4
     - openjpeg
+    - libtiff
     - curl [not win]
     - armadillo [not win]
     - libnetcdf 4.3.3.1 [not osx]
@@ -31,6 +32,7 @@ requirements:
     - hdf5 1.8.16
     - hdf4
     - openjpeg
+    - libtiff
     - curl [not win]
     - armadillo [not win]
     - libnetcdf 4.3.3.1 [not osx]
