@@ -23,7 +23,6 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-png=internal \
 --with-libz=internal \
 --with-python \
---disable-rpath \
 --without-pam \
 $PGFLAG
 
