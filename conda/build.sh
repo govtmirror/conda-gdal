@@ -20,7 +20,9 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-openjpeg=$PREFIX \
 --with-gif=internal \
 --with-geotiff=internal \
---with-tiff=internal \
+--with-libtiff=internal \
+--with-png=internal \
+--with-jpeg=internal \
 --with-python \
 --disable-rpath \
 --without-pam \
