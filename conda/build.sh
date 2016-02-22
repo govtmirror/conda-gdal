@@ -20,7 +20,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-openjpeg=$PREFIX \
 --with-gif=internal \
 --with-geotiff=internal \
---with-libtiff=internal \
+--with-tiff=internal \
 --with-png=internal \
 --with-libz=internal \
 --with-python \
