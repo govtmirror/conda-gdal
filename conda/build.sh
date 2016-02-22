@@ -22,7 +22,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-geotiff=internal \
 --with-libtiff=internal \
 --with-png=internal \
---with-jpeg=internal \
+--with-libz=internal \
 --with-python \
 --disable-rpath \
 --without-pam \
