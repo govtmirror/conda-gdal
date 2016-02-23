@@ -12,6 +12,7 @@ fi
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 ./configure --prefix=$PREFIX \
 --without-geos \
+--with-libgif=internal \
 --with-python 
 
 make
