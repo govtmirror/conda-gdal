@@ -10,31 +10,9 @@ requirements:
   build:
     - python
     - numpy
-    - xerces-c
-    - geos
-    - proj4 4.9.1
-    - postgresql [linux]
-    - hdf5 1.8.16
-    - hdf4
-    - openjpeg
-    - libtiff
-    - curl [not win]
-    - armadillo [not win]
-    - libnetcdf 4.3.3.1 [not osx]
   run:
     - python
     - numpy
-    - xerces-c
-    - geos
-    - proj4 4.9.1
-    - postgresql [linux]
-    - hdf5 1.8.16
-    - hdf4
-    - openjpeg
-    - libtiff
-    - curl [not win]
-    - armadillo [not win]
-    - libnetcdf 4.3.3.1 [not osx]
 
 build:
   number: 0
@@ -53,4 +31,4 @@ test:
 about:
   home: http://www.gdal.org/
   license: MIT
-  summary: The Geospatial Data Abstraction Library (GDAL) Version 1.11.3. Built with all command line tools and with GEOS and HDF5 support.
+  summary: The Geospatial Data Abstraction Library (GDAL) Version 1.10.1.
