@@ -12,10 +12,12 @@ requirements:
     - python
     - numpy
     - geos 3.5.0
+    - proj.4
   run:
     - python
     - numpy
     - geos 3.5.0
+    - proj.4
 
 build:
   number: 0
