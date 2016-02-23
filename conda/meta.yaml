@@ -11,9 +11,11 @@ requirements:
   build:
     - python
     - numpy
+    - geos 3.5.0
   run:
     - python
     - numpy
+    - geos 3.5.0
 
 build:
   number: 0
