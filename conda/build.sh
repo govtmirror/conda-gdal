@@ -12,7 +12,7 @@ fi
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 ./configure --prefix=$PREFIX \
 --with-geos=$PREFIX/bin/geos-config \
---with-gif=internal \ 
+--with-gif=internal \
 --with-geotiff=internal \
 --with-python
 
