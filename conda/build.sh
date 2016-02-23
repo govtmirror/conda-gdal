@@ -11,20 +11,10 @@ fi
 
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 ./configure --prefix=$PREFIX \
---with-geos=$PREFIX/bin/geos-config \
---with-static-proj4=$PREFIX \
---with-hdf5=$PREFIX \
---with-xerces=$PREFIX \
---with-armadillo=$PREFIX \
---with-netcdf=$PREFIX \
---with-openjpeg=$PREFIX \
---with-gif=internal \
---with-geotiff=internal \
---with-png=internal \
---with-libz=internal \
---with-python \
---without-pam \
-$PGFLAG
+  --without-geos \ 
+  --with-gif=internal \ 
+  --with-geotiff=internal \
+  --with-python
 
 
 make
