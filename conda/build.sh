@@ -11,6 +11,7 @@ fi
 
 CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 ./configure --prefix=$PREFIX \
+--without-geos \
 --with-python 
 
 make
