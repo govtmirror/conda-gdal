@@ -14,6 +14,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-geos=$PREFIX/bin/geos-config \
 --with-static-proj4=$PREFIX \
 --with-hdf5=$PREFIX \
+--with-xerces=$PREFIX \
 --with-gif=internal \
 --with-geotiff=internal \
 --with-python

@@ -14,12 +14,14 @@ requirements:
     - geos 3.5.0
     - hdf5
     - proj.4
+    - xerces-c
   run:
     - python
     - numpy
     - geos 3.5.0
     - hdf5
     - proj.4
+    - xerces-c
 
 build:
   number: 0
