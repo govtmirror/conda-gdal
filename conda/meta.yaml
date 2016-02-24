@@ -12,11 +12,13 @@ requirements:
     - python
     - numpy
     - geos 3.5.0
+    - hdf5
     - proj.4
   run:
     - python
     - numpy
     - geos 3.5.0
+    - hdf5
     - proj.4
 
 build:
