@@ -1,0 +1,24 @@
+build: false
+
+environment:
+  matrix:
+    - PYTHON_VERSION: 3.5
+
+matrix:
+  fast_finish: true
+
+platform:
+- x64
+
+init:
+- ps: Start-FileDownload 'https://raw.githubusercontent.com/menpo/condaci/v0.4.8/condaci.py' C:\\condaci.py; echo "Done"
+- cmd: python C:\\condaci.py setup
+
+install:
+- cmd: set tmp_cmd=python C:\\condaci.py miniconda_dir
+- cmd: "FOR /F %%i IN (' %tmp_cmd% ') DO SET APPV_MINICONDA_DIR=%%i"
+- cmd: set APPV_MINICONDA_EXE="%APPV_MINICONDA_DIR%\python.exe"
+- cmd: set APPV_CONDA_EXE="%APPV_MINICONDA_DIR%\Scripts\conda.exe"
+- cmd: echo "%APPV_CONDA_EXE%"
+- cmd: C:\Miniconda3-x64\Scripts\conda.exe config --add channels menpo
+- cmd: "%APPV_MINICONDA_EXE% C:\\condaci.py build conda"
