@@ -12,7 +12,7 @@ requirements:
     - python
     - numpy
     - geos 3.5.0
-    - hdf5
+    - hdf5 1.8.16
     - proj.4
     - xerces-c
     - libnetcdf
@@ -20,7 +20,7 @@ requirements:
     - python
     - numpy
     - geos 3.5.0
-    - hdf5
+    - hdf5 1.8.16
     - proj.4
     - xerces-c
     - libnetcdf
