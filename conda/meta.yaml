@@ -15,7 +15,6 @@ requirements:
     - hdf5 1.8.16
     - proj.4
     - xerces-c
-    - libnetcdf
   run:
     - python
     - numpy
@@ -23,7 +22,6 @@ requirements:
     - hdf5 1.8.16
     - proj.4
     - xerces-c
-    - libnetcdf
 
 build:
   number: 0

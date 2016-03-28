@@ -15,7 +15,6 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-static-proj4=$PREFIX \
 --with-hdf5=$PREFIX \
 --with-xerces=$PREFIX \
---with-netcdf=$PREFIX \
 --with-gif=internal \
 --with-geotiff=internal \
 --with-python
