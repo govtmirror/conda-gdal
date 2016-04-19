@@ -1,4 +1,4 @@
-# GDAL 1.11.3 for Anaconda Python
+# GDAL 2.0.2 for Anaconda Python
 
 | Build Service  | Status | Platforms |
 | -------------- | ------ | --------- |
