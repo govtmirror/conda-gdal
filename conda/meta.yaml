@@ -12,19 +12,19 @@ requirements:
     - python
     - numpy
     - geos 3.4.2
-    - hdf5 1.8.15
+    - hdf5 1.8.15.1
     - proj.4
     - xerces-c
   run:
     - python
     - numpy
     - geos 3.4.2
-    - hdf5 1.8.15
+    - hdf5 1.8.15.1
     - proj.4
     - xerces-c
 
 build:
-  number: 0
+  number: 1
 
 test:
   files:
