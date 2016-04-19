@@ -11,15 +11,15 @@ requirements:
   build:
     - python
     - numpy
-    - geos 3.5.0
-    - hdf5 1.8.16
+    - geos 3.4.2
+    - hdf5 1.8.15
     - proj.4
     - xerces-c
   run:
     - python
     - numpy
-    - geos 3.5.0
-    - hdf5 1.8.16
+    - geos 3.4.2
+    - hdf5 1.8.15
     - proj.4
     - xerces-c
 
